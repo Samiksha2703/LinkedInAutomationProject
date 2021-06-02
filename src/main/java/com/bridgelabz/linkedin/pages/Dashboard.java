@@ -1,3 +1,9 @@
+/**
+ * Description : Dashboard.java is file which is having logic for different methods for different scenario.
+ * Author      : Samiksha Shende
+ * Date        : 30/05/2021
+ */
+
 package com.bridgelabz.linkedin.pages;
 
 import org.openqa.selenium.WebDriver;
@@ -45,6 +51,6 @@ public class Dashboard {
         done.click();
         caption.sendKeys("This is test post");
         post.click();
-        Thread.sleep(10000);
+        Thread.sleep(20000);
     }
 }

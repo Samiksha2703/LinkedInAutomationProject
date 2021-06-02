@@ -1,3 +1,9 @@
+/**
+ * Description : Login.java is file which is having code for login application.
+ * Author      : Samiksha Shende
+ * Date        : 30/05/2021
+ */
+
 package com.bridgelabz.linkedin.pages;
 
 import org.openqa.selenium.WebDriver;
@@ -21,8 +27,8 @@ public class Login {
 
     public void loginIntoAccount() {
         try {
-            username.sendKeys("samiksha@rediffmail.com");
-            password.sendKeys("Sami@5698");
+            username.sendKeys("shende.samiksha@rediffmail.com");
+            password.sendKeys("Welcome@01");
             signIn.click();
         } catch (Exception e) {
             e.printStackTrace();
